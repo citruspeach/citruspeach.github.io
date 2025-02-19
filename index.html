@@ -101,10 +101,23 @@
 
 <h2 id="添加文章"><a href="#添加文章" class="headerlink" title="添加文章"></a>添加文章</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;文章标题&quot;</span><br></pre></td></tr></table></figure>
 
+<h2 id="清除"><a href="#清除" class="headerlink" title="清除"></a>清除</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成"><a href="#生成" class="headerlink" title="生成"></a>生成</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><p>在 github 上创建一个仓库，仓库名为你的 github 用户名.github.io<br>安装 git 部署插件</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>配置 hexo 配置文件 _config.yml</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: &quot;git&quot;</span><br><span class="line">  repo: &quot;https://github.com/your-github-username/your-github-username.github.io.git&quot;</span><br><span class="line">  branch: &quot;master&quot;</span><br></pre></td></tr></table></figure>
+
+<p>运行部署命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/02/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="cm7bw7yiu000178dzac1k3x6k" data-title="我的第一篇个人博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/02/19/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" data-id="cm7bx3n7h0001mcdz2dcfacvr" data-title="我的第一篇个人博客" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -155,7 +168,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2025/02/19/hello-world/" data-id="cm7bw7yii000078dz7ejz16o4" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2025/02/19/hello-world/" data-id="cm7bx3n740000mcdzdimyeydr" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
